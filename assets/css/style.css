@@ -3,32 +3,43 @@
 
 *{
     font-family: 'Merriweather Sans', sans-serif;
-  }
-  .red{
-    background-color: #E63946;
-  }
-  .blue{
-    background-color: #A8DADC;
-  }
-  .picasso{
-    background-color: #598c3f;
-    color: #C7B342;
-  }
-  .flags{
-    background-color: #BC2B44;
-    color: #EFE1EE;
-  }
-  .flags img{
-    height: 100%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-  }
-  .trash{
-    background-color: #413334;
-    color: #EDC184;
-  }
+}
+.red{
+  background-color: #E63946;
+}
+.blue{
+  background-color: #A8DADC;
+}
+.picasso{
+  background-color: #598c3f;
+  color: #C7B342;
+}
+.flags{
+  background-color: #BC2B44;
+  color: #EFE1EE;
+}
+.flags img{
+  height: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.trash{
+  background-color: #413334;
+  color: #EDC184;
+}
 
-  .notes{
-    background-color: #7A8591;
-    color: #2B2B48;
-  }
+.notes{
+  background-color: #7A8591;
+  color: #2B2B48;
+}
+
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */
+
+.card {
+  width: fit-content;
+  border: none;
+}
+  

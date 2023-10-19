@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday Sara!!</title>
-
+    
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- aos css -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- template css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -45,7 +47,7 @@
             </div>
           </div>
     
-          <div class="scrollify-container text-uppercase red">
+          <!-- <div class="scrollify-container text-uppercase red">
             <div class="container">
               <div class="row justify-content-center align-items-center py-4">
               <h2 class="col-auto">... but maybe i should paint you</h2>
@@ -68,33 +70,82 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div> -->
     
-        <div class="scrollify-container text-uppercase red">
-          <div class="container">
-            <div class="row justify-content-center align-items-center py-4">
-            <h2 class="col-auto">"Omg look!! Pretty sky!"</h2>
-              <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset1.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
+        <div class="scrollify-container text-uppercase position-relative red">
+          <h2 class="text-center pt-3">"Omg look!! Pretty sky!"</h2>
+          <div class="container position-absolute top-50 start-50 translate-middle">
+
+              <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                  <div class="swiper" data-aos="zoon-in">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                          <img src="./assets/img/sunsets/perth.jpg" alt="Perth, Australia" class="img-fluid"/>
+                          <div class="card-body">
+                            <p class="card-text"><small class="text-body-secondary">Perth, Australia - 2022</small></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                          <img src="./assets/img/sunsets/savannah.jpg" alt="Savannah, Georgia" class="img-fluid"/>
+                          <div class="card-body">
+                            <p class="card-text"><small class="text-body-secondary">Savannah, Georgia - 2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                          <img src="./assets/img/sunsets/perth2.jpg" alt="Perth, Australia" class="img-fluid"/>
+                            <div class="card-body">
+                              <p class="card-text"><small class="text-body-secondary">Perth, Australia - 2022</small></p>
+                            </div>
+                          </div>
+                      </div>
+
+                      
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="./assets/img/sunsets/perth3.jpg" alt="Perth, Australia" class="img-fluid"/>
+                            <div class="card-body">
+                              <p class="card-text"><small class="text-body-secondary">Perth, Australia - 2022</small></p>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                            <img src="./assets/img/sunsets/celje.jpg" alt="Celje, Slovenia" class="img-fluid"/>
+                            <div class="card-body">
+                              <p class="card-text"><small class="text-body-secondary">Celje, Slovenia - 2023</small></p>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="card h-100">
+                          <img src="./assets/img/sunsets/bled.jpg" alt="Bled, Slovenia" class="img-fluid"/>
+                          <div class="card-body">
+                            <p class="card-text"><small class="text-body-secondary">Bled, Slovenia - 2023</small></p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset7.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset3.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset6.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset5.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <img src="./assets/img/sunsets/sunset8.jpg" alt="flag usa" class="img-fluid" data-aos="fade-right">
-                </div>
+                  
               </div>
-            </div>
           </div>
       </div>
     
@@ -183,6 +234,8 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <!-- scrollify js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <!-- template js -->
 <script src="assets/js/main.js"></script>
 </html>
