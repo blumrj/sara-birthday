@@ -33,6 +33,10 @@
   color: #2B2B48;
 }
 
+.funniest-person{
+  background-color: #C1B0A0;
+}
+
 /* .swiper {
   width: 600px;
   height: 300px;
@@ -41,5 +45,9 @@
 .card {
   width: fit-content;
   border: none;
+}
+
+video{
+  width: 50%;
 }
   
