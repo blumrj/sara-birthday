@@ -78,8 +78,11 @@
 #sunset-swiper .card{
   width: inherit;
 }
+#video-div{
+  width: inherit;
+}
 video{
-  width: 50%;
+  width: inherit;
 }
 .container{
   height: inherit;

@@ -76,8 +76,6 @@ const notesSwiper = new Swiper("#notes-swiper", {
     loop: true,
     slidesPerView: 1,
     slidesPerGroup: 1,
-    // centeredSlides: true,
-    spaceBetween: 10,
     breakpoints: {
         // when window width is >= 480px
         480: {
