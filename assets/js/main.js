@@ -12,7 +12,7 @@ scrollSpeed: 800,
 });
 });
 
-AOS.init();
+// AOS.init();
 
 const paintingsSwiper = new Swiper("#paintings-swiper", {
     loop: true,
