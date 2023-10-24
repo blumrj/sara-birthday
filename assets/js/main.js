@@ -1,13 +1,4 @@
-// $(function() {
-//     $.scrollify({
-//         section : ".scrollify-container",
-//         // scrollSpeed: 400,
-//     });
-// });
-
-
-
-// AOS.init();
+AOS.init();
 
 const paintingsSwiper = new Swiper("#paintings-swiper", {
     loop: true,

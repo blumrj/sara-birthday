@@ -6,9 +6,7 @@
     <title>Happy Birthday Sara!!</title>
     
     <!-- bootstrap css -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
     <!-- swiper css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- aos css -->
@@ -19,13 +17,12 @@
 <body>
   <div class="scrollify-container text-uppercase sara">
     <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row py-4">
-      <h1 class="text-center">Happy Birthday Sara!</h1>
-      <div class="w-auto d-flex justify-content-center align-items-center">
+      <h1 class="text-center" data-aos="zoom-in-up">Happy Birthday Sara!</h1>
+      <div class="w-auto d-flex justify-content-center align-items-center" data-aos="zoom-in-down">
         <img src="./assets/img/sara.png" alt="Sara" class="img-fluid">
       </div>
       <div>
         <!-- empty div bc idk how else to solve it :) -->
-        <!-- <p class="text-center">scroll</p> -->
       </div>
     </div>
   </div>
@@ -33,8 +30,8 @@
   <!-- picasso slide -->
   <div class="scrollify-container text-uppercase picasso">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">If you were a painting, you'd probably be this one (iykyk):</h2>
-      <div class="w-auto">
+      <h3 class="text-center" data-aos="fade-down">If you were a painting, you'd probably be this one (iykyk):</h3>
+      <div class="w-auto" data-aos="flip-down">
         <img src="./assets/img/picasso-painting.jpg" alt="picasso" class="img-fluid">
         <p class="mt-2 mb-0">Picasso!</p>
       </div>
@@ -47,8 +44,8 @@
   <!-- me pretending to be picasso slide -->
   <div class="scrollify-container text-uppercase red">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">... but maybe i should paint you</h2>
-      <div id="paintings-swiper" class="swiper">
+      <h3 class="text-center">... but maybe i should paint you</h3>
+      <div id="paintings-swiper" class="swiper" data-aos="zoom-in">
         <div class="swiper-wrapper">
           <!-- slide -->
           <div class="swiper-slide">
@@ -104,8 +101,8 @@
   <!-- sunset pics slide -->
   <div class="scrollify-container text-uppercase sunset">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">"Omg look!! Pretty sky!"</h2>
-      <div id="sunset-swiper" class="swiper text-center">
+      <h3 class="text-center">"Omg look!! Pretty sky!"</h3>
+      <div id="sunset-swiper" class="swiper text-center" data-aos="fade-right">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="card h-100">
@@ -176,8 +173,8 @@
   <!-- facetime slide -->
   <div class="scrollify-container text-uppercase blue">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">Facetime!</h2>
-      <div id="facetime-swiper" class="swiper">
+      <h3 class="text-center">Facetime!</h3>
+      <div id="facetime-swiper" class="swiper" data-aos="fade-left">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./assets/img/facetime/ft1.jpg" alt="facetime1" class="img-fluid"/>
@@ -223,8 +220,8 @@
   <!-- notes slide -->
   <div class="scrollify-container text-uppercase notes">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">Here are some notes you left me</h2>
-      <div id="notes-swiper" class="swiper">
+      <h3 class="text-center">Here are some notes you left me</h3>
+      <div id="notes-swiper" class="swiper" data-aos="zoom-in-up">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="./assets/img/notes/note3.jpg" alt="note 3" class="img-fluid"/>
@@ -249,7 +246,7 @@
   </div>
 
         <div class="scrollify-container text-uppercase position-relative picasso">
-          <h2 class="text-center pt-3">And here are some random pics that remind me of you:</h2>
+          <h3 class="text-center pt-3">And here are some random pics that remind me of you:</h3>
           <div class="container position-absolute top-50 start-50 translate-middle">
             <div class="row justify-content-center align-items-center py-4">
               <div class="col-auto">
@@ -267,13 +264,13 @@
   <!-- accomplishments intro slide -->
   <div class="scrollify-container text-uppercase letters">
     <div class="container d-flex justify-content-center align-items-center">
-      <h2 class="text-center">You've accomplished so many things already! <br> But i think your biggest accomplishment...</h2>
+      <h3 class="text-center" data-aos="zoom-out">You've accomplished so many things already! <br> But i think your biggest accomplishment...</h3>
     </div>
   </div>
   <!-- accomplishments slide (me) -->
   <div class="scrollify-container text-uppercase funniest-person">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">... is meeting me (funniest person alive)</h2>
+      <h3 class="text-center" data-aos="fade-up">... is meeting me (funniest person alive)</h3>
       <div class="w-auto">
         <img src="assets/img/funnies-person.jpeg" alt="Funniest person alive" class="img-fluid"/>
       </div>
@@ -285,7 +282,7 @@
   <!-- accomplishments slide (awards) -->
   <div class="scrollify-container text-uppercase awards">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">Okay, okay, it's not that. <br> It's actually all of this:</h2>
+      <h3 class="text-center">Okay, okay, it's not that. <br> It's actually all of this:</h3>
       <div id="accomplishments-swiper" class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -320,7 +317,7 @@
   <!-- video slide -->
   <div class="scrollify-container text-uppercase video">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">Keep breaking ankles!! (not your own tho)</h2>
+      <h3 class="text-center">Keep breaking ankles!! (not your own tho)</h3>
       <div id="video-div">
         <p>*what not to do*</p>
         <video src="assets/img/breaking-ankles.mp4" controls></video>
@@ -333,13 +330,13 @@
   <!-- thank you slide -->
   <div class="scrollify-container text-uppercase letters2">
     <div class="container d-flex justify-content-center align-items-center">
-      <h2 class="text-center">Thanks for being (kinda) funny and cool. <br> Keep being great!</h2>
+      <h3 class="text-center">Thanks for being (kinda) funny and cool. <br> Keep being great!</h3>
     </div>
   </div>
   <!-- cake slide -->
   <div class="scrollify-container text-uppercase video">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">Also, here's your cake!! Try not to drop it this time</h2>
+      <h3 class="text-center">Also, here's your cake!! Try not to drop it this time</h3>
       <div class="w-auto">
         <img src="./assets/img/cake.png" alt="picasso" class="img-fluid">
       </div>
@@ -351,7 +348,7 @@
   <!-- final slide -->
   <div class="scrollify-container text-uppercase trash">
     <div class="container d-flex justify-content-between align-items-center flex-column py-4">
-      <h2 class="text-center">That's it! Have a great day!</h2>
+      <h3 class="text-center">That's it! Have a great day!</h3>
       <div class="w-auto">
         <img src="./assets/img/trash/trash1.jpg" alt="Taking out the trash" class="img-fluid"/>
       </div>
