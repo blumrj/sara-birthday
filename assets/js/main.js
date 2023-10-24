@@ -5,12 +5,7 @@
 //     });
 // });
 
-$(document).ready(function($) {
-  $.scrollify({
-section : ".scrollify-container",
-scrollSpeed: 800,
-});
-});
+
 
 // AOS.init();
 
@@ -140,5 +135,12 @@ const accomplishmentsSwiper = new Swiper("#accomplishments-swiper", {
         prevEl: '.swiper-button-prev',
       },
 })
+
+$(document).ready(function($) {
+  $.scrollify({
+section : ".scrollify-container",
+scrollSpeed: 800,
+});
+});
 
   
