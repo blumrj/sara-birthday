@@ -9,10 +9,9 @@ AOS.init();
 
 const paintingsSwiper = new Swiper("#paintings-swiper", {
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     slidesPerGroup: 1,
-    // centeredSlides: true,
-    spaceBetween: 10,
+    spaceBetween: 30,
     breakpoints: {
         // when window width is >= 480px
         // 480: {
@@ -20,17 +19,17 @@ const paintingsSwiper = new Swiper("#paintings-swiper", {
         //     slidesPerGroup: 2,
         //     spaceBetween: 20
         // },
-        640: {
-            slidesPerView: 4,
-            slidesPerGroup: 4,
-            spaceBetween: 30
-        }
+        // 640: {
+        //     slidesPerView: 4,
+        //     slidesPerGroup: 4,
+        //     spaceBetween: 30
+        // }
       },
 
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
 })
 
 const swiper = new Swiper('#sunset-swiper', {
@@ -38,7 +37,6 @@ const swiper = new Swiper('#sunset-swiper', {
     loop: true,
     slidesPerView: 1,
     slidesPerGroup: 1,
-    spaceBetween: 10,
     breakpoints: {
         // when window width is >= 480px
         480: {
@@ -62,22 +60,22 @@ const swiper = new Swiper('#sunset-swiper', {
 
 const facetimeSwiper = new Swiper("#facetime-swiper", {
     // loop: true,
-    slidesPerView: 1,
+    slidesPerView: "auto",
     slidesPerGroup: 1,
     // centeredSlides: true,
-    spaceBetween: 10,
+    spaceBetween: 30,
     breakpoints: {
         // when window width is >= 480px
-        480: {
-            slidesPerView: 2,
-            slidesPerGroup: 1,
-            spaceBetween: 20
-        },
-        640: {
-            slidesPerView: 5,
-            slidesPerGroup: 1,
-            spaceBetween: 30
-        }
+        // 480: {
+        //     slidesPerView: 2,
+        //     slidesPerGroup: 1,
+        //     spaceBetween: 20
+        // },
+        // 640: {
+        //     slidesPerView: 5,
+        //     slidesPerGroup: 1,
+        //     spaceBetween: 30
+        // }
       },
 
       navigation: {
@@ -111,7 +109,7 @@ const notesSwiper = new Swiper("#notes-swiper", {
       },
 })
 
-const randomImgSwiper = new Swiper("#random-img-swiper", {
+const accomplishmentsSwiper = new Swiper("#accomplishments-swiper", {
     loop: true,
     slidesPerView: 1,
     slidesPerGroup: 1,

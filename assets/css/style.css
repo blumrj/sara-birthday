@@ -37,10 +37,15 @@
   background-color: #C1B0A0;
 }
 
-/* .swiper {
-  width: 600px;
-  height: 300px;
-} */
+.swiper {
+  width: inherit;
+}
+
+.swiper .swiper-slide{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}
 
 .card {
   width: fit-content;
@@ -51,7 +56,10 @@ video{
   width: 50%;
 }
 
-#paintings-swiper .card{
-  height: 80%;
+/* #paintings-swiper .card{
+  height: 100%;
+} */
+
+.container{
+  height: inherit;
 }
-  
