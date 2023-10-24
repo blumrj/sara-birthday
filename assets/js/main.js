@@ -66,20 +66,6 @@ const facetimeSwiper = new Swiper("#facetime-swiper", {
     slidesPerGroup: 1,
     // centeredSlides: true,
     spaceBetween: 30,
-    breakpoints: {
-        // when window width is >= 480px
-        // 480: {
-        //     slidesPerView: 2,
-        //     slidesPerGroup: 1,
-        //     spaceBetween: 20
-        // },
-        // 640: {
-        //     slidesPerView: 5,
-        //     slidesPerGroup: 1,
-        //     spaceBetween: 30
-        // }
-      },
-
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

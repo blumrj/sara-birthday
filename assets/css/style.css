@@ -72,7 +72,7 @@
   justify-content: center;
 }
 .card {
-  width: fit-content;
+  width: inherit;
   border: none;
 }
 #sunset-swiper .card{
