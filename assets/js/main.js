@@ -1,8 +1,15 @@
-$(function() {
-    $.scrollify({
-        section : ".scrollify-container",
-        // scrollSpeed: 400,
-    });
+// $(function() {
+//     $.scrollify({
+//         section : ".scrollify-container",
+//         // scrollSpeed: 400,
+//     });
+// });
+
+$(document).ready(function($) {
+  $.scrollify({
+section : ".scrollify-container",
+scrollSpeed: 800,
+});
 });
 
 AOS.init();
