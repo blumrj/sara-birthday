@@ -1,18 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@900&family=Open+Sans:wght@800&display=swap');
 
 *{
-    font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.sara{
+  background-color: #18817A;
+  color: #EFEAD7;
+}
+.sara img{
+  width: 75%;
+}
+.sara h1{
+  font-size: 50pt;
 }
 .red{
-  background-color: #E63946;
+  background-color: rgb(245, 124, 205);
+  color: rgb(213, 0, 0);
+}
+.sunset{
+  background-color: purple;
+  color: rgb(239, 194, 222);
+
 }
 .blue{
-  background-color: #A8DADC;
+  background-color: #3fbabf;
 }
 .picasso{
-  background-color: #598c3f;
-  color: #C7B342;
+  background-color: #DE5C25;
+  color: #044f1c;
 }
 .flags img{
   height: 100%;
@@ -20,15 +35,33 @@
   object-fit: contain;
 }
 .trash{
-  background-color: #413334;
+  background-color: #0f4c48;
   color: #EDC184;
 }
 .notes{
-  background-color: #7A8591;
-  color: #2B2B48;
+  background-color: #052b51;
+  color: rgb(186, 199, 231);
+
+}
+.letters{
+  background-color: rgb(83, 9, 83);
+  color: rgb(225, 161, 201);
+}
+.letters2{
+  background-color: rgb(236, 136, 214);
+  color: rgb(77, 2, 77);
 }
 .funniest-person{
   background-color: #C1B0A0;
+  color: rgb(67, 36, 2);
+}
+.awards{
+  background-color: rgb(204, 0, 44);
+  color: rgb(237, 223, 195);
+}
+.video{
+  background-color: rgb(1, 1, 110);
+  color: beige;
 }
 .swiper {
   width: inherit;
