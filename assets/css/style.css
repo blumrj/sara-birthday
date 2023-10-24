@@ -50,4 +50,8 @@
 video{
   width: 50%;
 }
+
+#paintings-swiper .card{
+  height: 80%;
+}
   

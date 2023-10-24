@@ -1,7 +1,7 @@
 $(function() {
     $.scrollify({
         section : ".scrollify-container",
-        scrollSpeed: 400,
+        // scrollSpeed: 400,
     });
 });
 
@@ -104,6 +104,31 @@ const notesSwiper = new Swiper("#notes-swiper", {
             spaceBetween: 30
         }
       },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+})
+
+const randomImgSwiper = new Swiper("#random-img-swiper", {
+    loop: true,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    // centeredSlides: true,
+    spaceBetween: 10,
+    // breakpoints: {
+    //     // when window width is >= 480px
+    //     480: {
+    //         slidesPerView: 2,
+    //         slidesPerGroup: 1,
+    //         spaceBetween: 20
+    //     },
+    //     640: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //     }
+    //   },
 
       navigation: {
         nextEl: '.swiper-button-next',
