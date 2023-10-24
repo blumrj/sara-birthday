@@ -123,7 +123,7 @@ const accomplishmentsSwiper = new Swiper("#accomplishments-swiper", {
 $(document).ready(function($) {
   $.scrollify({
 section : ".scrollify-container",
-scrollSpeed: 800,
+scrollSpeed: 1100,
 });
 });
 
