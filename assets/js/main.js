@@ -1,4 +1,7 @@
-AOS.init();
+AOS.init({
+  offset: 0,
+  mirror: true
+});
 
 const paintingsSwiper = new Swiper("#paintings-swiper", {
     loop: true,
