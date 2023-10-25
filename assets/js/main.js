@@ -121,23 +121,17 @@ const randomImgSwiper = new Swiper("#random-img-swiper", {
 
 
 const accomplishmentsSwiper = new Swiper("#accomplishments-swiper", {
-    loop: true,
+    rewind: true,
     slidesPerView: 1,
     slidesPerGroup: 1,
-    // centeredSlides: true,
-    spaceBetween: 10,
-    // breakpoints: {
-    //     // when window width is >= 480px
-    //     480: {
-    //         slidesPerView: 2,
-    //         slidesPerGroup: 1,
-    //         spaceBetween: 20
-    //     },
-    //     640: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     }
-    //   },
+    autoHeight: true,
+    breakpoints: {
+      480: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 20
+      },
+    },
 
       navigation: {
         nextEl: '.swiper-button-next',
